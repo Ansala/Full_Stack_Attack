@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300');
+
+body {
+    background-image: url(./assets/barley.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.hero {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	background: rgba(210,211,210,0.7);
+	width: 100% !important;
+    height: 100vh !important;
+    font-family: 'Amatic SC', cursive;
+}
+
+.login_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.login_page h1 {
+    border-bottom: 1px solid #C67707; 
+    font-family: 'Amatic SC', cursive;
+}
+
+.navbar {
+background-color: #C67707;
+font-family: 'Amatic SC', cursive;
+}
+
+
+.navbar ul li a {
+    color:white !important;
+    font-size: 1.5em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.fa-phone{
+    color: #C67707 !important;
+}
+
+.material-icons {
+    background-color: #C67707 !important;
+}
+
+.hotel_card .material-icons {
+    background-color: transparent !important;
+}
+
+.card button {
+    background-color: #C67707 !important;
+    border: 0 !important;
+}
+
+nav .brand-logo {
+    height: 100%;
+    display: flex !important;
+    padding: 5px;
+}
+.brand-logo img {
+    height: 100% !important;
+    transform: rotate(-15deg);
+}
+.page-item a {
+ background-color: #C67707;
+}
+
+.logo-p {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    margin: 0 !important;
+    font-size: 0.9em !important;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    margin: 0 11px;
+    font-size: 90px;
+    font-family: 'Amatic SC', cursive;
+
+}
+h1 span{
+    color:#C67707;
+}
+
+h1 span{
+    display: inline-block;
+}
+
+h1 span span {
+    font-size: 110px;
+    margin: 0 05px;
+    font-weight: bold;
+}
+
+h4{
+    font-family: 'Amatic SC', cursive;
+    font-size:3.5em;
+}
+
+h5 {
+    padding: 0 5px !important;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.hide {
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.2s ease-in-out 0.1s;
+    overflow: hidden;
+}
+
+.row {
+    margin-bottom: 10px !important;
+}
+
+.show {
+    opacity: 1;
+    height: auto;
+    transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+.form-control:focus,
+.custom-select:focus {
+    color: #495057;
+    background-color: #fff;
+    border: none !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+input {
+    caret-color: #C67707 !important;
+}
+
+#information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#information .card {
+    flex-grow: 1;
+    min-width: 98%;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 1%;
+    
+}
+
+.call {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+}
+
+.search {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.btn {
+    width: 50% !important;
+    background-color: #C67707 !important;
+}
+
+ul {
+    margin-bottom: 0 !important;
+}
+
+.card .card-action {
+    padding: 5px !important;
+    border: none !important;
+}
+.hotel_card .card-reveal {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hotel_card .card-reveal a:first-of-type {
+    color: white;
+    background: #C67707;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.hotel_card .card-content a {
+    color: white;
+    font-size: 1.2em;
+    background: #C67707;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.hotel_card .card-content p {
+    text-align: right;
+}
+
+label {
+    color: black !important;
+}
+
+.pagination li a {
+    padding: 0 !important;
+}
+
+.pagination {
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+
+.input-field input[type=text] + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: #C67707;
+    font-size: 1.5rem;
+}
+.input-field input[type=text]:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+color:#C67707  !important;
+}
+.input-field input[type=text]:focus, .materialize-textarea:focus:not([readonly]) {
+border-bottom: 1px solid #C67707  !important;
+box-shadow: 0 1px 0 0 #C67707  !important;
+}
+.input-field input[type=email]:focus, .materialize-textarea:focus:not([readonly]) {
+border-bottom: 1px solid #C67707  !important;
+box-shadow: 0 1px 0 0 #C67707  !important;
+}
+.input-field input[type=password]:focus, .materialize-textarea:focus:not([readonly]) {
+border-bottom: 1px solid #C67707  !important;
+box-shadow: 0 1px 0 0 #C67707  !important;
+}
+
+footer {
+    text-align: center;
+    background-color: #C67707;
+    padding: 10px !important;
+    position: absolute;
+    top:50px !important;
+    margin-top: 50px !important;
+}
+.page-footer{
+    background-color: #C67707;
+}
+
+/*WEATHER*/
+
+.weather {
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 35px;
+    margin-bottom: 13px;
+}
+
+/*MAPS*/
+.container {
+    position: relative;
+}
+.abs {
+    position: absolute;
+    top: 0%;
+    left: 2%;
+    z-index: 2;
+    border: 2px solid black;
+    padding: 15px;
+    background-color: rgba(33,33,33,0.8);
+    color:white;
+  
+}
+
+/*Hotels*/
+
+.hotel-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.activator {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+@media all and (max-width: 600px) {
+    .hotel-flex {
+        display: block; 
+        
+    }
+
+}
+@media all and (max-width: 992px) {
+    nav .brand-logo {
+        left: 14%;
+    }
+}
+@media all and (max-width: 492px) {
+    footer {
+        display: none !important;
+    }
+    h1 span span {
+        font-size: 60px;
+        font-weight: bold;
+    
+    }
+    h1 {
+        margin: 0 11px;
+        font-size: 50px;
+        font-family: 'Amatic SC', cursive;
+    
+    }
+    .weather h5:first-child {
+        display: none;
+    }
+}
